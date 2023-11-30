@@ -1,5 +1,6 @@
 import psycopg2
 from psycopg2 import sql
+from flask import Flask, render_template
 
 class GerenciadorFilmes:
     def __init__(self):
